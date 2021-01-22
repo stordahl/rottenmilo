@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Eina01";
+  src: url("/fonts/Eina01-Regular.ttf") format("truetype");
+}
+body {
+	margin: 0;
+	font-family: "Eina01", sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0.5em 0;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+a {
+	color: inherit;
+}
+
+.carousel > button.left {
+		transform: translateX(-100px) !important;
+		cursor: pointer;
+  }
+
+  .carousel > button.right {
+		transform: translateX(100px) !important;
+		cursor: pointer;
+  }
+
+@media (min-width: 400px) {
+	body {
+		font-size: 16px;
+	}
+}
